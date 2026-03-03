@@ -1,0 +1,45 @@
+node_modules
+.next
+.github
+github
+
+# Node modules - sẽ được cài lại bên trong container
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+dist
+.build
+
+# Env files (tùy vào việc bạn có copy chúng hay dùng secrets bên ngoài)
+.env
+.env.*
+
+# OS/IDE/editor junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+*.tsbuildinfo
+
+# Test output
+coverage
+test-results
+
+# VS Code and other IDE settings
+.vscode
+.idea
+
+# Git stuff
+.git
+.gitignore
+
+# Docker-specific
+Dockerfile
+.dockerignore
+
+docker-compose.yml
+
